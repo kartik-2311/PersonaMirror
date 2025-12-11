@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PersonaMirror</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>PersonaMirror</h1>
+    <div class="section">
+      <h2>Load Sample Mirror</h2>
+      <input id="sampleSubject" placeholder="subject id" value="sample" />
+      <button id="loadSample">Load</button>
+      <div id="sampleStatus"></div>
+    </div>
+    <div class="section">
+      <h2>Ingest Files</h2>
+      <input id="filesSubject" placeholder="subject id" />
+      <input id="filesInput" type="file" multiple />
+      <button id="ingestFiles">Ingest</button>
+      <div id="filesStatus"></div>
+    </div>
+    <div class="section">
+      <h2>Chat</h2>
+      <input id="chatSubject" placeholder="subject id" value="sample" />
+      <input id="message" placeholder="message" />
+      <input id="voiceId" placeholder="ElevenLabs voice id (optional)" />
+      <label><input type="checkbox" id="voiceToggle" /> Voice</label>
+      <button id="send">Send</button>
+      <div id="reply"></div>
+      <div id="citations"></div>
+      <audio id="audio" controls></audio>
+    </div>
+
+    <div class="section">
+      <h2>Facts Browser</h2>
+      <input id="factsSubject" placeholder="subject id" value="sample" />
+      <button id="loadFacts">Load Facts</button>
+      <button id="addFact">Add Fact</button>
+      <button id="addPref">Add Preference</button>
+      <button id="saveFacts">Save</button>
+      <div id="factsStatus"></div>
+      <div class="grid">
+        <div>
+          <h3>Facts</h3>
+          <table id="factsTable">
+            <thead><tr><th>type</th><th>value</th><th>confidence</th><th>source</th><th>actions</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div>
+          <h3>Preferences</h3>
+          <table id="prefsTable">
+            <thead><tr><th>category</th><th>value</th><th>confidence</th><th>source</th><th>actions</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

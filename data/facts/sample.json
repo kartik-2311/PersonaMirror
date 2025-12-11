@@ -1,0 +1,49 @@
+{
+  "subject_id": "sample",
+  "facts": [
+    {
+      "type": "identity",
+      "value": "Alex Sharma",
+      "confidence": 0.9,
+      "source": "data\\sample_subject\\bio.txt"
+    },
+    {
+      "type": "contact",
+      "value": "alex@example.com",
+      "confidence": 0.8,
+      "source": "data\\sample_subject\\bio.txt"
+    },
+    {
+      "type": "experience",
+      "value": "Alex has 6 years of experience in product management.",
+      "confidence": 0.7,
+      "source": "data\\sample_subject\\bio.txt"
+    },
+    {
+      "type": "location",
+      "value": "Alex is located in Bengaluru, India.",
+      "confidence": 0.7,
+      "source": "data\\sample_subject\\bio.txt"
+    }
+  ],
+  "preferences": [
+    {
+      "category": "likes",
+      "value": "chai, long walks, minimalism",
+      "confidence": 0.8,
+      "source": "data\\sample_subject\\preferences.txt"
+    },
+    {
+      "category": "dislikes",
+      "value": "noisy notifications",
+      "confidence": 0.8,
+      "source": "data\\sample_subject\\preferences.txt"
+    },
+    {
+      "category": "prefers",
+      "value": "privacy-first tools and offline modes",
+      "confidence": 0.8,
+      "source": "data\\sample_subject\\preferences.txt"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "subject_id": "me",
+  "tone": "neutral",
+  "writing_examples": [
+    "\nC:\\K23\\Stockagent-main\\venv\\Scripts\\python.exe' -m pip install --upgrade pip setuptools wheel\n\n# Install from requirements.txt (run from project root)\n& 'C:\\K23\\Stockagent-main\\venv\\Scripts\\python.exe' -m pip install -r 'C:\\K23\\Stockagent-main\\requirements.txt'\n\n\n\n\nimport google.generativeai as genai\ngenai.configure(api_key=\"AIzaSyAOmOgv1DlVUavff3ga3BGf3iZSsPZmWOc\")\nmodel = genai.GenerativeModel('gemini-pro')\nresponse = model.generate_content(\"Hello\")\nprint(response.text)\n\n\n$env:GOOGLE_API_KEY = 'AIzaSyAOmOgv1DlVUavff3ga3BGf3iZSsPZmWOc'\n\n\n\nsetx GOOGLE_API_KEY \"AIzaSyAOmOgv1DlVUavff3ga3BGf3iZSsPZmWOc\"\n\n\n\n$env:OPENAI_API_KEY = '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'\n$env:GOOGLE_API_KEY = AIzaSyDcodxO3gbiWIRdLvF3uergw98EYSu0irs'\n# then run\n& '.\\venv_local\\Scripts\\python.exe' '.\\main.py'\n\n\n\nOPENAI_API_KEY = 'sk-proj-1hZeqQzNPTrL6CzOxY03N-iEqlWJINV7Sgrd-t_s6MVMl3ke"
+  ],
+  "response_tips": [
+    "be concise",
+    "cite sources",
+    "mirror phrasing"
+  ]
+}

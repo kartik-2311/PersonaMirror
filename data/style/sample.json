@@ -1,0 +1,14 @@
+{
+  "subject_id": "sample",
+  "tone": "formal",
+  "writing_examples": [
+    "Name: Alex Sharma\nEmail: alex@example.com\nAlex has 6 years of experience in product management.\nAlex is located in Bengaluru, India.\n",
+    "Likes: chai, long walks, minimalism\nDislikes: noisy notifications\nPrefers: privacy-first tools and offline modes\n",
+    "I value clarity and practical outcomes. I avoid fluff and prefer direct answers with sources when possible. I like a warm tone when writing to colleagues, but I keep messages short.\n"
+  ],
+  "response_tips": [
+    "be concise",
+    "cite sources",
+    "mirror phrasing"
+  ]
+}
