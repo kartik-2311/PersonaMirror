@@ -112,4 +112,5 @@ Key implementation references:
 - Multilingual ingestion and ASR/TTS for Indic languages
 - Rich style emulation/fine-tuning and persona controls
 - PDF table and resume section-aware parsing
-
+.venv\Scripts\python -m uvicorn app.main:app --host 127.0.0.1
+ --port 8000 --reload
